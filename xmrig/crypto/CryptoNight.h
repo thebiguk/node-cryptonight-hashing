@@ -22,8 +22,8 @@
  *   along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#ifndef XMRIG_CRYPTONIGHT_H
-#define XMRIG_CRYPTONIGHT_H
+#ifndef __CRYPTONIGHT_H__
+#define __CRYPTONIGHT_H__
 
 
 #include <stddef.h>
@@ -31,9 +31,9 @@
 
 
 struct cryptonight_ctx {
-    alignas(16) uint8_t state[224];
-    alignas(16) uint8_t *memory;
+    alignas(16) uint8_t state[200];
+    alignas(16) uint8_t* memory;
 };
 
 
-#endif /* XMRIG_CRYPTONIGHT_H */
+#endif /* __CRYPTONIGHT_H__ */

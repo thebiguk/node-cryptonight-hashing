@@ -1,0 +1,2 @@
+# node-cryptonight-hashing
+ 
